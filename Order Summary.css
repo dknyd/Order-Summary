@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(font/RedHatDisplay-Black.ttf)
+
+}
+
+.background_image{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  position: fixed;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 800px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+}
+
+.illustration{
+  width: 400px;
+  height: auto;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.big_bold{
+  font-family: "Red Hat Display";
+  font-size: 30px;
+  text-align: center;
+}
+
+.small_grey{
+  font-family: "Red Hat Display";
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  margin: 0px 40px 0px 40px;
+}
+
+.plan_container{
+  background-color: hsl(225, 100%, 98%);
+  width: 300px;
+  height: 80px;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.icon_music{
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.annual_plan_text{
+  color: hsl(223, 47%, 23%);
+  display: inline-block;
+  font-family: "Red Hat Display";
+  color: black;
+  margin-left: 25px;
+}
+
+  span{
+  color: hsl(223, 47%, 23%);
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Red Hat Display";
+  color: grey;
+}
+
+.input{
+  width: 300px;
+  height: 45px;
+  background-color: hsl(245, 75%, 52%);
+  margin-left: 50px;
+  border-radius: 10px;
+  font-family: "Red Hat Display";
+  color: white;
+  display: block;
+}
+
+.cancel{
+  font-family: "Red Hat Display";
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
+
+.change{
+  font-family: "Red Hat Display";
+  color: blue;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+
+  }
